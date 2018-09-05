@@ -90,19 +90,16 @@ $(".final").hide()
 
 // --TIMER--
 
-//run the timer with the interval
 function run() {
   clearInterval(timerInterval)
   timerInterval = setInterval(timeDown, 1000)
 }
 
-//increment the timer
 function timeDown() {
   number--
 
   $(".timer").text(number)
 
-  //integrate the timer functionality into the quiz
   if (number === 0) {
     nextQuestion()
     restartTimer()
@@ -110,7 +107,6 @@ function timeDown() {
   }
 }
 
-//stop the timer by clearng the timeout 
 function stopTimer() {
   clearInterval(timerInterval)
 }
