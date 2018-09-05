@@ -1,81 +1,81 @@
 var question1 = {
-  q: "Question 1",
-  a2: "an answer",
-  a3: "an answer",
-  a4: "an answer",
-  correct: "correct"
+  q: "What year was The Ohio State Univerity established?",
+  a2: "1902",
+  a3: "1883",
+  a4: "1875",
+  correct: "1870"
 }
 
 var question2 = {
-  q: "Question 2",
-  a2: "an answer",
-  a3: "an answer",
-  correct: "correct",
-  a4: "an answer"
+  q: "What year did Ohio become a state?",
+  a2: "1807",
+  a3: "1821",
+  correct: "1803",
+  a4: "1837"
 }
 
 var question3 = {
-  q: "Question 3",
-  correct: "correct",
-  a2: "an answer",
-  a3: "an answer",
-  a4: "an answer"
+  q: "How many states have the cardinal as their state bird?",
+  correct: "7",
+  a2: "2",
+  a3: "3",
+  a4: "5"
 }
 
 var question4 = {
-  q: "Question 4",
-  a2: "an answer",
-  correct: "correct",
-  a3: "an answer",
-  a4: "an answer"
+  q: "From what tree does Ohio get its nickname?",
+  a2: "Maple Tree",
+  correct: "Buckeye Tree",
+  a3: "Blue Spruce",
+  a4: "Pine Tree"
 }
 
 var question5 = {
-  q: "Question 5",
-  a2: "an answer",
-  correct: "correct",
-  a3: "an answer",
-  a4: "an answer"
+  q: "Of the 50 states, Ohio was the __ established.",
+  a2: "12th",
+  correct: "17th",
+  a3: "16th",
+  a4: "15th"
 }
 
 var question6 = {
-  q: "Question 6",
-  correct: "correct",
-  a2: "an answer",
-  a3: "an answer",
-  a4: "an answer"
+  q: "What is the state animal of Ohio?",
+  correct: "White-tailed Deer",
+  a2: "Bobcat",
+  a3: "Northern Squirrel",
+  a4: "Yeti"
 }
 
 var question7 = {
-  q: "Question 7",
-  correct: "correct",
-  a2: "an answer",
-  a3: "an answer",
-  a4: "an answer"
+  q: "What is the largest fruit able to grow in Ohio?",
+  a2: "Pear",
+  a3: "Papaya",
+  a4: "Apple",
+  correct: "Pawpaw"
 }
 
 var question8 = {
-  q: "Question 8",
-  correct: "correct",
-  a2: "an answer",
-  a3: "an answer",
-  a4: "an answer"
+  q: "What is the state flower of Ohio?",
+  a2: "White Carnation",
+  correct: "Red Carnation",
+  a3: "Reincarnation",
+  a4: "Car Nation"
 }
 
 var question9 = {
-  q: "Question 9",
-  correct: "correct",
-  a2: "an answer",
-  a3: "an answer",
-  a4: "an answer"
+  q: "How many presidents were born in Ohio?",
+  a2: "3",
+  a3: "4",
+  correct: "7",
+  a4: "8"
 }
 
 var question10 = {
-  q: "Question 10",
-  correct: "correct",
-  a2: "an answer",
-  a3: "an answer",
-  a4: "an answer"
+  q: "What is the average airspeed velocity of an African swallow?",
+  a2: "No one's ever asked me that",
+  a3: "I dont know",
+  a4: "Swallows can't fly",
+  correct: "about 24 miles per hour"
 }
 
 var questionArray = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10]
@@ -88,7 +88,7 @@ var click
 $(".final").hide()
 
 
-// --TIMER------------------ chapter 05 slide 09 'Interval'
+// --TIMER--
 
 //run the timer with the interval
 function run() {
