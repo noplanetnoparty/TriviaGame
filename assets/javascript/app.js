@@ -175,5 +175,5 @@ $(document).on("click", ".tryAgain", function() {
   score = 0
 })
 
-// run();
+run();
 makeQuestion()
