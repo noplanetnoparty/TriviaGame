@@ -42,4 +42,5 @@ header {
     width: 100px;
     padding: 20px;
     text-align: center;
+    float: right;
 }
